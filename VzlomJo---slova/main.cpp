@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	char word[5]{ 'h', 'a', 'c', 'k', 's' };
+	char word[5]{ 'a', 'a', 'a', 'a', 'a' };
 	cout << "your word: ";
 	for (int a = 0; a < 5; a++)
 	{
@@ -33,15 +33,19 @@ int main()
 	hack += a;
 	cout << hack;
 	l++;
+	hack = word[l];
 	hack += b;
 	cout << hack;
 	l++;
+	hack = word[l];
 	hack += c;
 	cout << hack;
 	l++;
+	hack = word[l];
 	hack += d;
 	cout << hack;
 	l++;
+	hack = word[l];
 	hack += e;
 	cout << hack;
 	l++;
